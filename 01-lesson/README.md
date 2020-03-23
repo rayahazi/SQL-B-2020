@@ -1,3 +1,5 @@
+Link to the Lesson 01 recording in youtube: https://youtu.be/PMebNf_WRHg
+
 # SQL - Structured query language. 
 SQL היא שפה לעבודה עם טבלאות נתונים
 #### DB - database. מסד נתונים
