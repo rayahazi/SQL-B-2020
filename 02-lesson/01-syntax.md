@@ -27,27 +27,12 @@ DDL:
 * use database;
 * DROP DATABASE
 * CREATE TABLE
-* TRUNCATE TABLE table_name;
-* DROP TABLE
-
-### data types
-int, varchar, nvarchar, boolean, float, double, 
-full list is in separated page. 
-
-```
-להדגים איך יוצרים מסד נתונים וטבלה עם טורים
-```
-
-### task A
-* Create DB name: `University`
-* Create table name: `ClassA`
-* Columns: ID, FirstName, LastName, BirthDate, AvgGrades, PhoneNumber. 
-with the right data types. 
-* Execute command
+* TRUNCATE TABLE table_name;  - truncate: delete all the data from table, but keeps the table. 
+* DROP TABLE                  - drop: delete all the data. including the table itself. 
 
 ### Select *
 *= all
 
 ```sql
-SELECT * FROM `ClassA`
+SELECT * FROM `table_name`
 ```
