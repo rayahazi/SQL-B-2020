@@ -2,14 +2,17 @@
 <div dir=rtl>
   
   ## סוג טיפוס: מחרוזות:
-  `CHAR` - תו. תופס בזיכרון בדיוק את כל המקום שהגדרנו לו. צריך להגדיר את האורך.  
+  `CHAR` - תו. תופס בזיכרון בדיוק את כל המקום שהגדרנו לו. צריך להגדיר את האורך. 
+  יגדיר מקום בזיכרון בדיוק כפי שהגדרנו לו. 
    ```sql
       column_name CHAR(4)
    ```
-  `VARCHAR` - מחרוזת. צריך להגדיר את אורך המחרוזת. 
+  `VARCHAR` - מחרוזת. צריך להגדיר את אורך המחרוזת.
+    יגדיר מקום בזיכרון על פי מה שהכנסו לתוכו. אם הכנסנו ערך שלא תופס את כל המקום, אז כך זה יראה.  
    ```sql
       column_name VARCHAR(20)
    ```
+   
   `NVARCHAR` -  מחרוזת שכוללת שפות נוספות. כמו עברית. משתמשת בטבלת Unicode
    ```sql
        column_name NVARCHAR(20)
@@ -17,33 +20,50 @@
   
    ## סוג טיפוס: מספרים:
    `BIT` - . טווח: 1-64 ביט. ערך בינארי. של אפסים ואחדות
-   ```sql
+ ```sql
    column_name BIT;
    or:
    column_name BIT(1);
    
    ```
    `INT` - (integer) - מספר שלם. זהו הערך הסטנדרטי עבור מספרים. גודלו: 4 בייט. 
-    ```sql
+```sql
    column_name INT;
-   
    ```
    `FLOAT` - מספר צף. בעל נקודה עשרונית. גודלו: 4 בייט.
-    ```sql
+   דוגמא: 4.5
+ ```sql
    column_name FLOAT;
    
    ```
    `DOUBLE` - מספר צף. גודלו: 8 בייט.
-    ```sql
+```sql
    column_name DOUBLE;
    
    ```
    `BOOLEAN` - יכול להיות רק 2 אפשרויות: אמת או שקר. 
    `true` / `false`:
-   
-  ```sql
+```sql
    column_name DOUBLE;
   ```
+  
+  `DATE` - 'YYYY-MM-DD' : שנה, חודש, ויום. 
+ ```sql
+   column_name DATE;
+  ```
+  
+  `TIME` - 'HH-MM-SS': שעות, דקות, שניות. 
+  ```sql
+   column_name TIME;
+  ```
+ 
+  
+  `DATETIME`  - 'YYYY-MM-DD:HH-MM-SS' : שנה, חודש, ויום. 
+    ```sql
+   column_name DATETIME;
+  ```
+  
+  
   
   
   </div>
