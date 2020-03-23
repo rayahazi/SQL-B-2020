@@ -1,4 +1,5 @@
 # MySQL: Data Types
+
 <div dir=rtl>
   
   ## סוג טיפוס: מחרוזות:
@@ -53,9 +54,10 @@
   ```
   
   `TIME` - 'HH-MM-SS': שעות, דקות, שניות. 
-  ```sql
+```sql
    column_name TIME;
   ```
+ 
  
   
   `DATETIME`  - 'YYYY-MM-DD:HH-MM-SS' : שנה, חודש, ויום. 
@@ -64,9 +66,7 @@
   ```
   
   
-  
-  
-  </div>
+</div>
 
 
 The following is a list of datatypes available in MySQL, which includes string, numeric, date/time, and large object datatypes.
