@@ -1,4 +1,4 @@
-# Syntax
+# Syntax - תחביר
 All saved words are in blue, and upper-case(not must). 
 ; in the end of command. 
 
