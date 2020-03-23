@@ -44,7 +44,7 @@
    `BOOLEAN` - יכול להיות רק 2 אפשרויות: אמת או שקר. 
    `true` / `false`:
 ```sql
-   column_name DOUBLE;
+   column_name BOOLEAN;
   ```
   
   `DATE` - 'YYYY-MM-DD' : שנה, חודש, ויום. 
