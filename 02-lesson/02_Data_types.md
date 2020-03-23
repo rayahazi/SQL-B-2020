@@ -1,4 +1,53 @@
 # MySQL: Data Types
+<div dir=rtl>
+  
+  ## סוג טיפוס: מחרוזות:
+  `CHAR` - תו. תופס בזיכרון בדיוק את כל המקום שהגדרנו לו. צריך להגדיר את האורך.  
+   ```sql
+      column_name CHAR(4)
+   ```
+  `VARCHAR` - מחרוזת. צריך להגדיר את אורך המחרוזת. 
+   ```sql
+      column_name VARCHAR(20)
+   ```
+  `NVARCHAR` -  מחרוזת שכוללת שפות נוספות. כמו עברית. משתמשת בטבלת Unicode
+   ```sql
+       column_name NVARCHAR(20)
+   ```
+  
+   ## סוג טיפוס: מספרים:
+   `BIT` - . טווח: 1-64 ביט. ערך בינארי. של אפסים ואחדות
+   ```sql
+   column_name BIT;
+   or:
+   column_name BIT(1);
+   
+   ```
+   `INT` - (integer) - מספר שלם. זהו הערך הסטנדרטי עבור מספרים. גודלו: 4 בייט. 
+    ```sql
+   column_name INT;
+   
+   ```
+   `FLOAT` - מספר צף. בעל נקודה עשרונית. גודלו: 4 בייט.
+    ```sql
+   column_name FLOAT;
+   
+   ```
+   `DOUBLE` - מספר צף. גודלו: 8 בייט.
+    ```sql
+   column_name DOUBLE;
+   
+   ```
+   `BOOLEAN` - יכול להיות רק 2 אפשרויות: אמת או שקר. 
+   `true` / `false`:
+   
+  ```sql
+   column_name DOUBLE;
+  ```
+  
+  
+  </div>
+
 
 The following is a list of datatypes available in MySQL, which includes string, numeric, date/time, and large object datatypes.
 
@@ -10,15 +59,8 @@ The following are the **String Datatypes** in MySQL:
 | ------------------ | ------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `CHAR(size)`       | Maximum size of 255 characters.                  | A FIXED length string (can contain letters, numbers, and special characters). The size parameter specifies the column length in characters - can be from 0 to 255. Default is 1                                      |
 | `VARCHAR(size)`    | Maximum size of 255 characters.                  | A VARIABLE length string (can contain letters, numbers, and special characters). The size parameter specifies the maximum column length in characters - can be from 0 to 65535      
-| `NCHAR(size)`      | Maximum size of 255 characters.                  | Fixed width Unicode string	                                                                          
-                          |
-| `NVARCHAR(size)`    | Maximum size of 255 characters.                  | Where **size** is the number of characters to store. Variable-length string.                                                                                        |
-| `TINYTEXT(size)`   | Maximum size of 255 characters.                  | Where **size** is the number of characters to store.                                                                                                                 |
-| `TEXT(size)`       | Maximum size of 65,535 characters.               | Where **size** is the number of characters to store.                                                                                                                 |
-| `MEDIUMTEXT(size)` | Maximum size of 16,777,215 characters.           | Where **size** is the number of characters to store.                                                                                                                 |
-| `LONGTEXT(size)`   | Maximum size of 4GB or 4,294,967,295 characters. | Where **size** is the number of characters to store.                                                                                                                 |
-| `BINARY(size)`     | Maximum size of 255 characters.                  | Equal to CHAR(), but stores binary byte strings. The size parameter specifies the column length in bytes. Default is 1
-| `VARBINARY(size)`  | Maximum size of 255 characters.                  | Equal to VARCHAR(), but stores binary byte strings. The size parameter specifies the maximum column length in bytes.                                                          |
+| `NCHAR(size)`      | Maximum size of 255 characters.                  | Fixed width Unicode string	                                   
+| `NVARCHAR(size)`    | Maximum size of 255 characters.                  | Where **size** is the number of characters to store. 
 
 
 ## Numeric Datatypes
@@ -51,16 +93,3 @@ The following are the **Date/Time Datatypes** in MySQL:
 | `TIME`           | Values range from '-838:59:59' to '838:59:59'.                            | Displayed as 'HH:MM:SS'.            |
 | `YEAR[(2\|4)]`    | Year value as 2 digits or 4 digits.                                       | Default is 4 digits.                |
 
-
-## Large Object (LOB) Datatypes
-
-The following are the **LOB Datatypes** in MySQL:
-
-| Data Type Syntax | Maximum Size                                     | Explanation                                                                                              |
-| ---------------- | ------------------------------------------------ | -------------------------------------------------------------------------------------------------------- |
-| `TINYBLOB`       | Maximum size of 255 bytes.                       |
-| `BLOB(size)`     | Maximum size of 65,535 bytes.                    | Where size is the number of characters to store.<br>*(size is optional and was introduced in MySQL 4.1)* |
-| `MEDIUMBLOB`     | Maximum size of 16,777,215 bytes.                |
-| `LONGTEXT`       | Maximum size of 4GB or 4,294,967,295 characters. |
-
-*Taken from https://www.techonthenet.com/mysql/datatypes.php*
