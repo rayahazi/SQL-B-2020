@@ -82,8 +82,6 @@ DROP PRIMARY KEY;
 
 
 ## FOREIGN KEY - Uniquely identifies a row/record in another table
-https://www.youtube.com/watch?v=SMbL-5lD4WA
-הסבר של זה בעברית בשבילי
 A FOREIGN KEY is a key used to link two tables together.
 
 A FOREIGN KEY is a field (or collection of fields) in one table that refers to the PRIMARY KEY in another table.
