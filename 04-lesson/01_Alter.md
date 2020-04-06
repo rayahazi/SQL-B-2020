@@ -10,7 +10,7 @@ ADD column_name datatype;
 To delete a column in a table, use the following syntax
 ```sql
 ALTER TABLE table_name
-DROP COLUMN column_name;
+DROP column_name;
 ```
 
 ## Alter table - Modify column
