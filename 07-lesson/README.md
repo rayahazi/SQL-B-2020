@@ -2,7 +2,7 @@
 
 On the same DB we worked on last week
 
-1. Retrieve all data from table `demo`, when `name` is in uppercase and `firstname` is in lowercase.
+1. Retrieve all data from table `demo`, when `name` is in uppercase and `firstname` is in lowercase. Add diffrent name to the 2 columns. 
 2. Retrieve all data from table `demo`, when all "@" in email addresses are replaced with "\$" and column name will be `New_Email`
 3. Retrieve names of database, user, and your current version.
 4. Get the current time.
