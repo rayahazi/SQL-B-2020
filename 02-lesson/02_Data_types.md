@@ -65,9 +65,9 @@
    column_name DATETIME;
   ```
   
-  
 </div>
 
+---
 
 > The following is a list of datatypes available in MySQL, which includes string, numeric, date/time, and large object datatypes.
 
