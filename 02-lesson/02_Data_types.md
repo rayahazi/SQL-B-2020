@@ -64,7 +64,7 @@
     ```sql
    column_name DATETIME;
   ```
-  
+  ```
 </div>
 
 ---
