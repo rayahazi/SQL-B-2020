@@ -86,7 +86,7 @@ SELECT UPPER('MySql');				-- 'MYSQL'
 
 ```
 
-## REPEAT(str, )count
+## REPEAT(str, count)
 
 Returns the string `str` repeated `count` times.
 If `count` is less than 1, returns an empty string.
