@@ -65,8 +65,6 @@ INSERT INTO customer (customer_id, cust_name, city, grade, salesman_id) values
 (3001,	'Brad Guzan',	'London',100,	5005);
 
 ```
-# DB diagram:
-
 # Questions
 
 1. Write a SQL statement to prepare a list with salesman name, customer name and their cities for the salesmen and customer who belongs to the same city. 
