@@ -6,5 +6,7 @@
   Create procedure to show all the data in customer table, where id = to the user variable. 
   (use parameters in procedure call)
 4. Define user variable @city1 and @city2 with 2 city names. 
+  <br/>
   Create procedure to show all the data in customer table, where city is equal to two variables from the user. 
+  <br/>
   call the procedure with the two variables  @city1 and @city2.
