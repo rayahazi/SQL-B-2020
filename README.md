@@ -126,4 +126,8 @@
 
 ## Lesson 12:
 
+- Stored procedures
+
+## Lesson 12:
+
 - Preparation to exam.
