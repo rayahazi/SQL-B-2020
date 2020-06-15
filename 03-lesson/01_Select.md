@@ -20,7 +20,7 @@ Insert Data Only in Specified Columns: It is also possible to only insert data i
 
 ---
 
-## Select, select distinct, select top
+## Select, select distinct
 * SELECT: 
     The SELECT statement is used to select data from a database.
     The data returned is stored in a result table, called the result-set.
