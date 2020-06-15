@@ -96,6 +96,12 @@ CREATE TABLE Orders (
     PRIMARY KEY (OrderID),
     FOREIGN KEY (PersonID) REFERENCES Persons(PersonID)
 );
+-- or:
+CREATE TABLE Orders (
+    OrderID int PRIMARY KEY,
+    OrderNumber int NOT NULL,
+    PersonID int REFERENCES Persons(PersonID)
+);
 ```
 drop foreign key:
 ```sql
