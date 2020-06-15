@@ -2,7 +2,7 @@
 
 ## Lesson 01:
 
-- Into to database - what is it, why needd it
+- Into to database - what is it, why need it
 - SQL vs No-SLQ
 - Installation: xampp, mysql workbench
 
