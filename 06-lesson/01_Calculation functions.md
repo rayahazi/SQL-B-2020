@@ -48,8 +48,8 @@ SELECT SQRT(9);   -- 3
 SELECT SQRT(20);  -- '4.47213595499958'
 SELECT SQRT(-13); -- null
 ```
-# Use the functions on a column:
-thi function does not change the actual value of the data in this column
+#### Use the functions on a column:
+this function does not change the actual value of the data in this column
 ```sql
 select id,floor(val) from z;
 ```
